@@ -7,12 +7,12 @@ The project directory is organized as follows:
 - `Extracted_Article/`: This folder will be generated to store the extracted articles from the provided URLs.
 - `input.xlsx`: Excel file containing URLs for web content extraction.
 - `requirements.txt`: List of required Python packages with versions.
-- `sentiment_readability_analysis.py`: Python script to perform sentiment and readability analysis on extracted articles.
-- `web_content_extraction.py`: Python script to extract web content using `newspaper3k` library.
+- `Text_Analysis.ipynb`: Python notebook to perform sentiment and readability analysis on extracted articles.
+- `webscrap.ipynb`: Python notebook to extract web content using `newspaper3k` library.
 
 ## Web Content Extraction
 
-The `web_content_extraction.py` script retrieves web content from the provided URLs using the `newspaper3k` library. Extracted articles are saved in the `Extracted_Article` folder. To run the script, execute the following command:
+The `web_content_extraction.py` notebook retrieves web content from the provided URLs using the `newspaper3k` library. Extracted articles are saved in the `Extracted_Article` folder. To run the script, execute the following command:
 
 ```bash
 python web_content_extraction.py
@@ -20,11 +20,8 @@ python web_content_extraction.py
 
 ## Sentiment and Readability Analysis
 
-The `sentiment_readability_analysis.py` script performs sentiment and readability analysis on the extracted articles. It calculates various metrics including sentiment scores, polarity, subjectivity, fog index, word count, syllable count, and more. The results are displayed and saved in a CSV file named `results.csv`. To run the script, execute the following command:
+The `Text_Analysis.ipynb` Notebook performs sentiment and readability analysis on the extracted articles. It calculates various metrics including sentiment scores, polarity, subjectivity, fog index, word count, syllable count, and more. The results are displayed and saved in a CSV file named `results.csv`. To run the script, execute the following command:
 
-```bash
-python sentiment_readability_analysis.py
-```
 
 ## Example Use Case
 
@@ -44,7 +41,6 @@ We would like to acknowledge the open-source libraries and resources used in thi
 
 For any questions or suggestions, please feel free to contact (mailto:datadinesh1@gmail.com).
 
----
-**Note:** This README is a template. Please modify it according to your project's requirements.
-```
+
+
 
